@@ -1,0 +1,36 @@
+- 👋 Hi, I’m @awdcrjy19bca26
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+awdcrjy19bca26/awdcrjy19bca26 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.io.*;
+import java.util.*;
+class Harshadnumber {
+    public static void main(String[] args) 
+    {
+    int n,r=0,sum=0;
+    Scanner sc=new Scanner(System.in);
+    n=sc.nextInt();
+    while(n!=0)
+    {
+        r=n%10;
+        sum=r+r;
+        n/=10;
+    }
+    if(n%sum==0)
+    {
+     System.out.println("Harshad Number"); 
+    }
+     else
+     {
+     System.out.println("Not Harshad Number");
+     }
+    }
+}
